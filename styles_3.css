@@ -1,0 +1,154 @@
+:root{
+    --cor-background: #019a32;
+    --cor-iluminacao: #fe0000;
+    --cor-background-variacao: #000000;
+    --cor-fonte: #ffffff;
+    --cor-background--variacao: #1a1c22;
+}
+
+*{
+    color: var(--cor-fonte);
+    font-family: 'Dela Gothic One', cursive;
+
+}
+
+body{
+    background-color: var(--cor-background);
+    
+}
+
+nav {
+    background-color: var(--cor-background-variacao);
+    padding: 4rem;
+    text-align: center;
+    width: auto;
+
+
+}
+
+
+
+nav ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ol li {
+    display: inline;
+}
+
+nav ol li a {
+    color: var(--cor-fonte-variacao);
+    text-decoration: none;
+    padding: 5px 30px;
+    font-family: 'Inter', sans-serif;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 2rem;
+}
+
+nav ol li a:hover {
+    background-color: var(--cor-iluminacao);
+}
+
+header{
+    text-align: center;
+    font-size: 2rem;
+    color: var(--cor-fonte);
+}
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: var(--cor-background--variacao);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 2rem;
+  }
+
+  form header h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+  }
+
+  fieldset input[type="radio"], fieldset input[type="checkbox"]  {
+    display: inline-block;
+    width: calc(100% - 540px);
+    vertical-align: middle;
+  }
+
+  input,
+  textarea,
+  select {
+    display: block;
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 2rem;
+    border-radius: 3rem;
+    border: 1px solid var(--cor-iluminacao);
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+
+  button[type="submit"] {
+    background-color: var(--cor-background);
+    color: var(--cor-fonte);
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 3rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: var(--cor-iluminacao);
+  }
+
+footer{
+    background-color: var(--cor-background-variacao);
+    padding: 0.5rem ;
+    width: auto;
+    text-align: center;
+}
+
+#footer_social_media{
+    display: flex;
+    gap: 2rem;
+
+}
+
+#footer_social_media .footer_link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    color: var(--cor-b);
+    text-decoration: none;   
+}
+
+#instagram{
+    background: linear-gradient(#7f37c9, #ff2992, #ff9807);
+    
+}
+
+#twitter{
+    background-color: #00acee;
+}
+
+#behance{
+    background-color: #053eff;
+}
+
+#linkedin{
+    background-color: #0e76a8;
+}

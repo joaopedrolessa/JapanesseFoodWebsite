@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=], initial-scale=1.0">
+    <title>contato</title>
+    <link rel="stylesheet" href="styles_3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />   
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    <nav>
+        <div>
+            <ol>
+                <li><a href="Index.html">Página Principal</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="Produtos.html">Produtos</a></li>
+                <li><a href="novidades.html">Novidades</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ol>
+        </div>
+    </nav> 
+
+    <header><h1>Pedido</h1></header>
+
+    <form>
+        <label for="username"><h2>Nome Recebedor</h2></label>
+        <input type="text" id="username" name="username">
+
+        <label for="endereço"><h2>Endereço</h2></label>
+        <input type="text" id="endereço" name="endereço">
+
+        <label for="telefone"><h2>Telefone</h2></label>
+        <input type="tel" id="telefone" name="telefone">
+
+        <fieldset>
+            <legend>Entrada:</legend>
+            <label><input type="radio" name="entrada" value="Gyoza">Gyoza</label>
+            <label><input type="radio" name="entrada" value="Rolinho_camarão">Rolinho de Camarão</label>
+            <label><input type="radio" name="entrada" value="rolinho_primavera">Rolinho Primavera</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Prato Principal:</legend>
+            <label><input type="radio" name="principal" value="yakisoba">Yakisoba</label>
+            <label><input type="radio" name="principal" value="poke">Poke</label>
+            <label><input type="radio" name="principal" value="sushi">Sushi</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Acompanhamento:</legend>
+            <label><input type="radio" name="Acompanhamento" value="arroz">Arroz</label>
+            <label><input type="radio" name="Acompanhamento" value="Batata-frita">Batata Frita</label>
+            <label><input type="radio" name="Acompanhamento" value="batatadoce">Batata Doce</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Sobremesa:</legend>
+            <label><input type="radio" name="sobremesa" value="rolinho_de_banana">Rolinho de Banana</label>
+            <label><input type="radio" name="sobremesa" value="sorvete_de_chocolate">Sorvete de Chocolate</label>
+            <label><input type="radio" name="sobremesa" value="flocos">Sorvete de Flocos</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Bebida:</legend>
+            <label><input type="radio" name="bebida" value="agua">Água</label>
+            <label><input type="radio" name="bebida" value="suco">Suco</label>
+            <label><input type="radio" name="bebida" value="refrigerante">Refrigerante</label>
+        </fieldset>
+
+        <button type="submit">Pedir</button>
+
+    </form>
+
+</body>
+</html>

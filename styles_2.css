@@ -1,0 +1,145 @@
+:root{
+    --cor-background: #019a32;
+    --cor-iluminacao: #fe0000;
+    --cor-background-variacao: #000000;
+    --cor-fonte: #ffffff;
+    --cor-alternativa: #0f0f0f;
+}
+
+*{
+    color: var(--cor-fonte);
+    font-family: 'Noto Sans JP', sans-serif;
+
+}
+
+body{
+    background-color: var(--cor-background);
+    
+}
+
+nav {
+    background-color: var(--cor-background-variacao);
+    padding: 2rem;
+    text-align: center;
+
+}
+
+nav ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ol li {
+    display: inline;
+}
+
+nav ol li a {
+    color: var(--cor-fonte-variacao);
+    text-decoration: none;
+    padding: 5px 30px;
+    font-size: 2rem;
+}
+
+nav ol li a:hover {
+    background-color: var(--cor-iluminacao);
+}
+
+header {
+    background-color: var(--cor-iluminacao);
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0rem 1rem 1rem 1rem rgba(0, 0, 0, 0.3);
+  }
+
+  section{
+    background-color: var(--cor-alternativa);
+    padding: 0.5rem;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+main{
+    display: flexbox;
+    
+ }
+
+
+h1{
+    font-size: 3rem;
+    padding: 0.3rem;
+    box-shadow: 0rem 1rem 1rem 1rem rgba(0, 0, 0, 0.3);
+    margin-bottom: 3rem;
+    text-align: center;
+
+
+}
+
+h2{
+    font-size: 1.2rem;
+    text-align: center;
+    
+}
+
+h3{
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0rem 1rem 1rem 1rem rgba(0, 0, 0, 0.3);
+}
+
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+    gap: 10rem;
+
+}
+
+footer{
+    background-color: var(--cor-background-variacao);
+    padding: 0.5rem ;
+    width: auto;
+    text-align: center;
+}
+
+#footer_social_media{
+    display: flex;
+    gap: 2rem;
+
+}
+
+#footer_social_media .footer_link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    color: var(--cor-b);
+    text-decoration: none;   
+}
+
+#instagram{
+    background: linear-gradient(#7f37c9, #ff2992, #ff9807);
+    
+}
+
+#twitter{
+    background-color: #00acee;
+}
+
+#behance{
+    background-color: #053eff;
+}
+
+#linkedin{
+    background-color: #0e76a8;
+}
